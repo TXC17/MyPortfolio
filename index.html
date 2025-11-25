@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Kumar A - AI & Data Science Student | Python Developer</title>
+    <meta name="description" content="Portfolio of Keshav Kumar A - B.E. Artificial Intelligence & Data Science student specializing in Python, Machine Learning, and ReactJS development.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">Keshav</a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Animated Background -->
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="floating-icon icon-1">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m18 16 4-4-4-4"></path>
+                    <path d="m6 8-4 4 4 4"></path>
+                    <path d="m14.5 4-5 16"></path>
+                </svg>
+            </div>
+            <div class="floating-icon icon-2">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path>
+                    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path>
+                    <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path>
+                </svg>
+            </div>
+            <div class="floating-icon icon-3">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge-welcome">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                    </svg>
+                    Welcome to my portfolio
+                </div>
+                
+                <div class="profile-wrapper">
+                    <div class="profile-glow"></div>
+                    <div class="profile-image">
+                        <div class="profile-inner">
+                            <img src="https://i.postimg.cc/tTdcLhJD/Whats-App-Image-2025-11-25-at-19-51-06-42de37d7.jpg" alt="Keshav Kumar A" class="profile-photo">
+                        </div>
+                    </div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        Available
+                    </div>
+                </div>
+                
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-title">Keshav Kumar A</h1>
+                    <p class="hero-tagline">AI & Data Science Student</p>
+                    <div class="hero-tags">
+                        <span class="tag"><span class="tag-dot"></span>Python Developer</span>
+                        <span class="tag"><span class="tag-dot"></span>ML Enthusiast</span>
+                        <span class="tag"><span class="tag-dot"></span>Game Dev</span>
+                    </div>
+                    <p class="hero-bio">Specializing in <strong>Python</strong>, <strong>Machine Learning</strong>, and <strong>ReactJS</strong>. Building intelligent solutions for real-world problems.</p>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Contact Me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate student pursuing a Bachelor of Engineering in Artificial Intelligence and Data Science at Global Academy of Technology, expected to graduate in 2027. My journey in tech is driven by curiosity and a desire to solve real-world problems using intelligent systems.</p>
+                    <p>With a strong foundation in Python programming and machine learning, I enjoy exploring the intersection of data science and practical applications. Beyond academics, I have a keen interest in gaming and game development, which fuels my creativity and problem-solving skills.</p>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-details">
+                            <h4>B.E. Artificial Intelligence & Data Science</h4>
+                            <p>Global Academy of Technology</p>
+                            <span class="year">Expected 2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-badge" data-skill="python">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2C10.3431 2 9 3.34315 9 5V9H15V10H6C4.34315 10 3 11.3431 3 13V17C3 18.6569 4.34315 20 6 20H8V16C8 14.3431 9.34315 13 11 13H17C18.6569 13 20 11.6569 20 10V5C20 3.34315 18.6569 2 17 2H12Z"></path>
+                        <path d="M12 22C13.6569 22 15 20.6569 15 19V15H9V14H18C19.6569 14 21 12.6569 21 11V7C21 5.34315 19.6569 4 18 4H16V8C16 9.65685 14.6569 11 13 11H7C5.34315 11 4 12.3431 4 14V19C4 20.6569 5.34315 22 7 22H12Z"></path>
+                        <circle cx="11" cy="6" r="1" fill="currentColor"></circle>
+                        <circle cx="13" cy="18" r="1" fill="currentColor"></circle>
+                    </svg>
+                    <span>Python</span>
+                    <p class="skill-preview">Proficient in Python programming with experience in data structures, algorithms, and OOP.</p>
+                    <button class="skill-toggle">
+                        <span class="toggle-text">Show more</span>
+                        <svg class="expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div class="skill-description">
+                        <p>Proficient in Python programming with experience in data structures, algorithms, and object-oriented programming. Skilled in using libraries like NumPy, Pandas, and Matplotlib for data manipulation and visualization. Applied Python in various projects including automation scripts and machine learning applications.</p>
+                    </div>
+                </div>
+                <div class="skill-badge" data-skill="ml">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                        <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                        <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                    <span>Machine Learning</span>
+                    <p class="skill-preview">Strong foundation in ML concepts including supervised/unsupervised learning and neural networks.</p>
+                    <button class="skill-toggle">
+                        <span class="toggle-text">Show more</span>
+                        <svg class="expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div class="skill-description">
+                        <p>Strong foundation in machine learning concepts including supervised and unsupervised learning, neural networks, and deep learning. Experienced with frameworks like TensorFlow, Keras, and Scikit-learn. Built classification models, regression models, and NLP applications for real-world problem solving.</p>
+                    </div>
+                </div>
+                <div class="skill-badge" data-skill="react">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                        <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse>
+                        <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse>
+                        <circle cx="12" cy="12" r="2" fill="currentColor"></circle>
+                    </svg>
+                    <span>ReactJS</span>
+                    <p class="skill-preview">Experienced in building modern, responsive web applications with component-based architecture.</p>
+                    <button class="skill-toggle">
+                        <span class="toggle-text">Show more</span>
+                        <svg class="expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div class="skill-description">
+                        <p>Experienced in building modern, responsive web applications using React. Proficient in component-based architecture, state management with hooks, and React Router. Familiar with modern development tools and practices including JSX, ES6+, and integration with REST APIs for dynamic user interfaces.</p>
+                    </div>
+                </div>
+                <div class="skill-badge" data-skill="data-analysis">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 3v18h18"></path>
+                        <path d="M18 17V9"></path>
+                        <path d="M13 17V5"></path>
+                        <path d="M8 17v-3"></path>
+                        <circle cx="18" cy="7" r="1.5" fill="currentColor"></circle>
+                        <circle cx="13" cy="3" r="1.5" fill="currentColor"></circle>
+                        <circle cx="8" cy="12" r="1.5" fill="currentColor"></circle>
+                        <path d="M8 12l5-9"></path>
+                        <path d="M13 3l5 4"></path>
+                    </svg>
+                    <span>Data Analysis</span>
+                    <p class="skill-preview">Skilled in analyzing complex datasets to extract meaningful insights and patterns.</p>
+                    <button class="skill-toggle">
+                        <span class="toggle-text">Show more</span>
+                        <svg class="expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div class="skill-description">
+                        <p>Skilled in analyzing complex datasets to extract meaningful insights and patterns. Proficient with data manipulation using Pandas, statistical analysis, and creating compelling visualizations with Matplotlib and Seaborn. Experience in data cleaning, exploratory data analysis, and presenting findings to drive data-driven decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="badge-section">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                </svg>
+                My Work
+            </div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Showcasing real-world applications and innovative solutions</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon-wrapper">
+                        <div class="project-icon-bg purple-gradient">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <path d="M12 18v-6"></path>
+                                <path d="M9 15l3 3 3-3"></path>
+                                <circle cx="12" cy="11" r="1" fill="currentColor"></circle>
+                                <path d="M16 11h.01"></path>
+                                <path d="M8 11h.01"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">AI</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                        <h3>ApplyAsYouGo</h3>
+                        <p>AI-powered online internship application automation system that streamlines the job application process.</p>
+                        <a href="https://github.com/TXC17" class="project-link" target="_blank">
+                            View on GitHub
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon-wrapper">
+                        <div class="project-icon-bg orange-gradient">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                                <path d="M9 13l2 2 4-4" stroke-width="2.5"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">ML</span>
+                            <span class="project-tag">NLP</span>
+                        </div>
+                        <h3>Fake News Detection</h3>
+                        <p>Python-based machine learning model that classifies news articles as real or fake using NLP techniques.</p>
+                        <a href="https://github.com/TXC17" class="project-link" target="_blank">
+                            View on GitHub
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://github.com/TXC17" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <span>View All Projects on GitHub</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="badge-section">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                </svg>
+                What I offer
+            </div>
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Professional services in AI, ML, and data science</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon-bg pink-gradient">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="6" cy="6" r="3"></circle>
+                                <circle cx="18" cy="6" r="3"></circle>
+                                <circle cx="6" cy="18" r="3"></circle>
+                                <circle cx="18" cy="18" r="3"></circle>
+                                <circle cx="12" cy="12" r="2" fill="currentColor"></circle>
+                                <line x1="8.5" y1="7.5" x2="10.5" y2="10.5"></line>
+                                <line x1="15.5" y1="7.5" x2="13.5" y2="10.5"></line>
+                                <line x1="8.5" y1="16.5" x2="10.5" y2="13.5"></line>
+                                <line x1="15.5" y1="16.5" x2="13.5" y2="13.5"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>ML Model Development</h3>
+                    <p>Building and training machine learning models for real datasets. From data preprocessing to model deployment, I create intelligent solutions tailored to your needs.</p>
+                    <ul class="service-features">
+                        <li>Custom ML algorithms</li>
+                        <li>Model training & optimization</li>
+                        <li>Performance tuning</li>
+                        <li>Model deployment</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn more
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon-bg blue-gradient">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="20" x2="12" y2="10"></line>
+                                <line x1="18" y1="20" x2="18" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="16"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Data Analysis</h3>
+                    <p>Cleaning, analyzing, and deriving actionable insights from complex datasets. Transform raw data into meaningful information for better decision-making.</p>
+                    <ul class="service-features">
+                        <li>Data cleaning & preprocessing</li>
+                        <li>Statistical analysis</li>
+                        <li>Data visualization</li>
+                        <li>Insight generation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn more
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon-bg green-gradient">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m18 16 4-4-4-4"></path>
+                                <path d="m6 8-4 4 4 4"></path>
+                                <path d="m14.5 4-5 16"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Python Development</h3>
+                    <p>Custom Python solutions for automation, web scraping, and backend development. Building efficient and scalable applications with clean, maintainable code.</p>
+                    <ul class="service-features">
+                        <li>Automation scripts</li>
+                        <li>Web scraping tools</li>
+                        <li>API development</li>
+                        <li>Backend solutions</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn more
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:keshavkumar.0817@gmail.com">keshavkumar.0817@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <a href="tel:8618500918">8618500918</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/keshav-kumar-8bb567339/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        <a href="https://github.com/TXC17" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Keshav Kumar A. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/keshav-kumar-8bb567339/" target="_blank" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/TXC17" target="_blank" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
