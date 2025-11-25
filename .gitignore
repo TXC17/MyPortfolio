@@ -19,3 +19,25 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Downloaded/temporary files
+*.download
+saved_resource*.html
+f.txt
+f(1).txt
+f(2).txt
+f(3).txt
+f(4).txt
+client
+js
+js(1)
+js(2)
+rum
+main.tsx
+unnamed.jpg
+50bcfbf9-fba8-40d1-9503-615cbc18f361
+9151671744940732
+
+# Old files (keeping originals temporarily)
+/styles.css
+/script.js
